@@ -13,37 +13,37 @@
 
         mian {
             bindings = <
-&kp ESC    &kp Q  &kp W  &kp F     &kp P   &kp B        &kp J      &kp L   &kp U      &kp Y    &kp SEMI  &kp BSPC
-&kp TAB    &kp A  &kp R  &kp S     &kp T   &kp G        &kp M      &kp N   &kp E      &kp I    &kp O     &kp ENTER
-&kp RSHFT  &kp Z  &kp X  &kp C     &kp D   &kp V        &kp K      &kp H   &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-                         &kp LALT  &trans  &kp LCTRL    &kp SPACE  &trans  &kp LGUI
+&kp ESC    &kp Q  &kp W  &kp F     &kp P  &kp B        &kp J      &kp L   &kp U      &kp Y    &kp SEMI  &kp BSPC
+&kp TAB    &kp A  &kp R  &kp S     &kp T  &kp G        &kp M      &kp N   &kp E      &kp I    &kp O     &kp ENTER
+&kp RSHFT  &kp Z  &kp X  &kp C     &kp D  &kp V        &kp K      &kp H   &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+                         &kp LALT  &to 1  &kp LCTRL    &kp SPACE  &trans  &kp LGUI
             >;
         };
 
         layer_1 {
             bindings = <
-&kp ESC         &trans  &kp N1  &kp N2    &kp N3  &kp N0       &trans     &kp F1  &kp F2    &kp F3  &kp F10  &kp BSPC
-&kp TAB         &trans  &kp N4  &kp N5    &kp N6  &trans       &trans     &kp F4  &kp F5    &kp F6  &kp F11  &kp ENTER
-&kp LEFT_SHIFT  &trans  &kp N7  &kp N8    &kp N9  &trans       &trans     &kp F7  &kp F8    &kp F9  &kp F12  &kp RSHFT
-                                &kp LALT  &trans  &kp LCTRL    &kp SPACE  &trans  &kp LGUI
+&kp ESC         &trans  &kp N1  &kp N2    &kp N3  &kp N0          &trans     &kp F1  &kp F2    &kp F3  &kp F10  &kp BSPC
+&kp TAB         &trans  &kp N4  &kp N5    &kp N6  &kp CAPSLOCK    &trans     &kp F4  &kp F5    &kp F6  &kp F11  &kp ENTER
+&kp LEFT_SHIFT  &trans  &kp N7  &kp N8    &kp N9  &trans          &trans     &kp F7  &kp F8    &kp F9  &kp F12  &kp RSHFT
+                                &kp LALT  &to 2   &kp LCTRL       &kp SPACE  &trans  &kp LGUI
             >;
         };
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&kp ESC    &trans  &trans  &trans    &trans  &trans       &trans     &trans  &trans    &trans  &trans  &kp BSPC
+&kp TAB    &trans  &trans  &trans    &trans  &trans       &trans     &trans  &trans    &trans  &trans  &kp ENTER
+&kp LSHFT  &trans  &trans  &trans    &trans  &trans       &trans     &trans  &trans    &trans  &trans  &kp RSHFT
+                           &kp LALT  &to 3   &kp LCTRL    &kp SPACE  &trans  &kp LGUI
             >;
         };
 
         gaming {
             bindings = <
-&kp ESC    &kp Q  &kp W  &kp E     &kp R   &kp T        &kp Y      &kp U   &kp I      &kp O    &kp P     &kp BSPC
-&kp TAB    &kp A  &kp S  &kp D     &kp F   &kp G        &kp H      &kp J   &kp K      &kp L    &kp SEMI  &kp ENTER
-&kp LSHFT  &kp Z  &kp X  &kp C     &kp V   &kp B        &kp N      &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-                         &kp LALT  &trans  &kp RCTRL    &kp SPACE  &trans  &kp LGUI
+&kp ESC    &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y      &kp U   &kp I      &kp O    &kp P     &kp BSPC
+&kp TAB    &kp A  &kp S  &kp D     &kp F  &kp G        &kp H      &kp J   &kp K      &kp L    &kp SEMI  &kp ENTER
+&kp LSHFT  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N      &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+                         &kp LALT  &to 0  &kp RCTRL    &kp SPACE  &trans  &kp LGUI
             >;
         };
     };
